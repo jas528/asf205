@@ -1,0 +1,4 @@
+docker container run -d --name dockerfile-example -p 8080:80 local:dockerfile-example
+
+docker cp ef34c4a9c410:/usr/local/apache2/conf conf
+docker cp ef34c4a9c410:/usr/local/apache2/htdocs htdocs
